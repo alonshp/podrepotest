@@ -38,7 +38,7 @@ let package = Package(
       name: "iOSSDKTemplateTarget",
       dependencies: [
         .target(name: "iOSSDKTemplate"),
-        "RxSwift"
+        "RxSwift",
         .product(name: "RxCocoa", package: "RxSwift")
       ],
       path: "iOSSDKTemplateTarget"
