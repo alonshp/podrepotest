@@ -19,7 +19,7 @@ relocations:
   - { offsetInCU: 0x27C, offset: 0x100009, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_1, symObjAddr: 0x1D8, symBinAddr: 0x5718, symSize: 0x20 }
   - { offsetInCU: 0x290, offset: 0x10001D, size: 0x8, addend: 0x0, symName: '_$s14iOSSDKTemplate8SDKClassCMa', symObjAddr: 0x2C8, symBinAddr: 0x5808, symSize: 0x20 }
   - { offsetInCU: 0x27, offset: 0x100179, size: 0x8, addend: 0x0, symName: '+[_RXDelegateProxy collectVoidSelectorsForProtocol:]', symObjAddr: 0x0, symBinAddr: 0x58D0, symSize: 0x158 }
-  - { offsetInCU: 0x41, offset: 0x100193, size: 0x8, addend: 0x0, symName: _voidSelectorsPerClass, symObjAddr: 0x3658, symBinAddr: 0x162350, symSize: 0x0 }
+  - { offsetInCU: 0x41, offset: 0x100193, size: 0x8, addend: 0x0, symName: _voidSelectorsPerClass, symObjAddr: 0x3670, symBinAddr: 0x162350, symSize: 0x0 }
   - { offsetInCU: 0xD5, offset: 0x100227, size: 0x8, addend: 0x0, symName: '+[_RXDelegateProxy collectVoidSelectorsForProtocol:]', symObjAddr: 0x0, symBinAddr: 0x58D0, symSize: 0x158 }
   - { offsetInCU: 0x299, offset: 0x1003EB, size: 0x8, addend: 0x0, symName: '+[_RXDelegateProxy initialize]', symObjAddr: 0x158, symBinAddr: 0x5A28, symSize: 0x1C0 }
   - { offsetInCU: 0x3D3, offset: 0x100525, size: 0x8, addend: 0x0, symName: '-[_RXDelegateProxy _forwardToDelegate]', symObjAddr: 0x318, symBinAddr: 0x5BE8, symSize: 0x18 }
@@ -47,15 +47,15 @@ relocations:
   - { offsetInCU: 0x43F, offset: 0x100CE8, size: 0x8, addend: 0x0, symName: '-[_RXKVOObserver setCallback:]', symObjAddr: 0x2F4, symBinAddr: 0x6234, symSize: 0x8 }
   - { offsetInCU: 0x47E, offset: 0x100D27, size: 0x8, addend: 0x0, symName: '-[_RXKVOObserver .cxx_destruct]', symObjAddr: 0x2FC, symBinAddr: 0x623C, symSize: 0x3C }
   - { offsetInCU: 0x27, offset: 0x100DAA, size: 0x8, addend: 0x0, symName: _RX_return_type_is_supported, symObjAddr: 0x0, symBinAddr: 0x6278, symSize: 0x84 }
-  - { offsetInCU: 0x41, offset: 0x100DC4, size: 0x8, addend: 0x0, symName: _RXAbortOnThreadingHazard, symObjAddr: 0x4A983, symBinAddr: 0x1689A0, symSize: 0x0 }
+  - { offsetInCU: 0x41, offset: 0x100DC4, size: 0x8, addend: 0x0, symName: _RXAbortOnThreadingHazard, symObjAddr: 0x4A9D4, symBinAddr: 0x1689A0, symSize: 0x0 }
   - { offsetInCU: 0x5E, offset: 0x100DE1, size: 0x8, addend: 0x0, symName: _RXObjCRuntimeErrorDomain, symObjAddr: 0x10F38, symBinAddr: 0x12C888, symSize: 0x0 }
   - { offsetInCU: 0x7E, offset: 0x100E01, size: 0x8, addend: 0x0, symName: _RXObjCRuntimeErrorIsKVOKey, symObjAddr: 0x10F40, symBinAddr: 0x12C890, symSize: 0x0 }
-  - { offsetInCU: 0x95, offset: 0x100E18, size: 0x8, addend: 0x0, symName: __instance, symObjAddr: 0x4A990, symBinAddr: 0x162360, symSize: 0x0 }
-  - { offsetInCU: 0x163, offset: 0x100EE6, size: 0x8, addend: 0x0, symName: _optimizedObserversByMethodEncoding, symObjAddr: 0x4A998, symBinAddr: 0x162368, symSize: 0x0 }
-  - { offsetInCU: 0x179, offset: 0x100EFC, size: 0x8, addend: 0x0, symName: _defaultTypeID, symObjAddr: 0x4A9A0, symBinAddr: 0x162370, symSize: 0x0 }
-  - { offsetInCU: 0x196, offset: 0x100F19, size: 0x8, addend: 0x0, symName: _deallocSelector, symObjAddr: 0x4A988, symBinAddr: 0x162358, symSize: 0x0 }
+  - { offsetInCU: 0x95, offset: 0x100E18, size: 0x8, addend: 0x0, symName: __instance, symObjAddr: 0x4A9E0, symBinAddr: 0x162360, symSize: 0x0 }
+  - { offsetInCU: 0x163, offset: 0x100EE6, size: 0x8, addend: 0x0, symName: _optimizedObserversByMethodEncoding, symObjAddr: 0x4A9E8, symBinAddr: 0x162368, symSize: 0x0 }
+  - { offsetInCU: 0x179, offset: 0x100EFC, size: 0x8, addend: 0x0, symName: _defaultTypeID, symObjAddr: 0x4A9F0, symBinAddr: 0x162370, symSize: 0x0 }
+  - { offsetInCU: 0x196, offset: 0x100F19, size: 0x8, addend: 0x0, symName: _deallocSelector, symObjAddr: 0x4A9D8, symBinAddr: 0x162358, symSize: 0x0 }
   - { offsetInCU: 0x1BF, offset: 0x100F42, size: 0x8, addend: 0x0, symName: _supported_types, symObjAddr: 0x10F48, symBinAddr: 0x12C898, symSize: 0x0 }
-  - { offsetInCU: 0x219, offset: 0x100F9C, size: 0x8, addend: 0x0, symName: _RxSwizzlingTargetClassKey, symObjAddr: 0x4A9A8, symBinAddr: 0x162378, symSize: 0x0 }
+  - { offsetInCU: 0x219, offset: 0x100F9C, size: 0x8, addend: 0x0, symName: _RxSwizzlingTargetClassKey, symObjAddr: 0x4A9F8, symBinAddr: 0x162378, symSize: 0x0 }
   - { offsetInCU: 0x951, offset: 0x1016D4, size: 0x8, addend: 0x0, symName: _RX_return_type_is_supported, symObjAddr: 0x0, symBinAddr: 0x6278, symSize: 0x84 }
   - { offsetInCU: 0x99B, offset: 0x10171E, size: 0x8, addend: 0x0, symName: _RX_selector, symObjAddr: 0x84, symBinAddr: 0x62FC, symSize: 0x68 }
   - { offsetInCU: 0xA21, offset: 0x1017A4, size: 0x8, addend: 0x0, symName: _RX_is_method_signature_void, symObjAddr: 0xEC, symBinAddr: 0x6364, symSize: 0x2C }
@@ -632,8 +632,8 @@ relocations:
   - { offsetInCU: 0x3F, offset: 0x11BB74, size: 0x8, addend: 0x0, symName: '_$s7RxSwift14InfallibleTypeP0A5CocoaE8asDriverAD14SharedSequenceVyAD0G15SharingStrategyV7ElementQzGyF', symObjAddr: 0x0, symBinAddr: 0x20E20, symSize: 0x140 }
   - { offsetInCU: 0x27, offset: 0x11BD8F, size: 0x8, addend: 0x0, symName: '_$s7RxCocoa16KVORepresentablePAAE8KVOValuexSg7KVOTypeQzSg_tcfC', symObjAddr: 0x8, symBinAddr: 0x20F68, symSize: 0x230 }
   - { offsetInCU: 0x3F, offset: 0x11BDA7, size: 0x8, addend: 0x0, symName: '_$s7RxCocoa16KVORepresentablePAAE8KVOValuexSg7KVOTypeQzSg_tcfC', symObjAddr: 0x8, symBinAddr: 0x20F68, symSize: 0x230 }
-  - { offsetInCU: 0x4B, offset: 0x11BFFF, size: 0x8, addend: 0x0, symName: '_$s7RxCocoa10CGSizeTypeSSvp', symObjAddr: 0x3658, symBinAddr: 0x1689A8, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0x11C019, size: 0x8, addend: 0x0, symName: '_$s7RxCocoa11CGPointTypeSSvp', symObjAddr: 0x3668, symBinAddr: 0x1689B8, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x11BFFF, size: 0x8, addend: 0x0, symName: '_$s7RxCocoa10CGSizeTypeSSvp', symObjAddr: 0x36D8, symBinAddr: 0x1689A8, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0x11C019, size: 0x8, addend: 0x0, symName: '_$s7RxCocoa11CGPointTypeSSvp', symObjAddr: 0x36E8, symBinAddr: 0x1689B8, symSize: 0x0 }
   - { offsetInCU: 0x73, offset: 0x11C027, size: 0x8, addend: 0x0, symName: '_$s7RxCocoa10CGSizeType_WZ', symObjAddr: 0x0, symBinAddr: 0x21198, symSize: 0x2C }
   - { offsetInCU: 0x8D, offset: 0x11C041, size: 0x8, addend: 0x0, symName: '_$s7RxCocoa11CGPointType_WZ', symObjAddr: 0x2C, symBinAddr: 0x211C4, symSize: 0x2C }
   - { offsetInCU: 0xA7, offset: 0x11C05B, size: 0x8, addend: 0x0, symName: '_$sSo6CGRectV7RxCocoaE8KVOValueABSgSo7NSValueC_tcfC', symObjAddr: 0x58, symBinAddr: 0x211F0, symSize: 0x38 }
