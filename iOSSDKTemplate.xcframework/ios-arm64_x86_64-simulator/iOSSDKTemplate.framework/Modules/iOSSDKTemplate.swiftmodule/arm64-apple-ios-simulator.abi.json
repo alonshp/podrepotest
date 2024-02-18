@@ -1,0 +1,106 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iOSSDKTemplate",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "iOSSDKTemplate"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDKClass",
+        "printedName": "SDKClass",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "testFunc",
+            "printedName": "testFunc()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14iOSSDKTemplate8SDKClassC8testFuncSSyF",
+            "mangledName": "$s14iOSSDKTemplate8SDKClassC8testFuncSSyF",
+            "moduleName": "iOSSDKTemplate",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SDKClass",
+                "printedName": "iOSSDKTemplate.SDKClass",
+                "usr": "s:14iOSSDKTemplate8SDKClassC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14iOSSDKTemplate8SDKClassCACycfc",
+            "mangledName": "$s14iOSSDKTemplate8SDKClassCACycfc",
+            "moduleName": "iOSSDKTemplate",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14iOSSDKTemplate8SDKClassC",
+        "mangledName": "$s14iOSSDKTemplate8SDKClassC",
+        "moduleName": "iOSSDKTemplate",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/alonshprung\/Desktop\/iOSLibraryTemplate\/iOSLibraryTemplate\/iOSSDKTemplate\/SDKClass.swift",
+      "kind": "IntegerLiteral",
+      "offset": 247,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Desktop\/iOSLibraryTemplate\/iOSLibraryTemplate\/iOSSDKTemplate\/SDKClass.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 16,
+      "value": "\"hello from sdk\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Desktop\/iOSLibraryTemplate\/iOSLibraryTemplate\/iOSSDKTemplate\/SDKClass.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 7,
+      "value": "\"hello\""
+    }
+  ]
+}

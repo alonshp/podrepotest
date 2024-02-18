@@ -1,0 +1,11 @@
+framework module iOSSDKTemplate {
+  umbrella header "iOSSDKTemplate.h"
+
+  export *
+  module * { export * }
+}
+
+module iOSSDKTemplate.Swift {
+  header "iOSSDKTemplate-Swift.h"
+  requires objc
+}
