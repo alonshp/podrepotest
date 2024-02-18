@@ -37,7 +37,7 @@ let package = Package(
     .target(
       name: "iOSSDKTemplateTarget",
       dependencies: [
-        .target(name: "iOSSDKTemplate", condition: .when(platforms: .some([.iOS]))),
+        .target(name: "iOSSDKTemplate"),
         "RxSwift",
         .product(name: "RxCocoa", package: "RxSwift")
       ],
