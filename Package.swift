@@ -1,4 +1,4 @@
-// swift-tools-version:5.9
+// swift-tools-version:5.3
 
 // Copyright 2021 Google LLC
 //
@@ -37,7 +37,7 @@ let package = Package(
     .target(
       name: "iOSSDKTemplateTarget",
       dependencies: [
-        .target(name: "iOSSDKTemplate"),
+        .target(name: "iOSSDKTemplate", condition: .when(platforms: [.iOS])),
         "RxSwift",
         .product(name: "RxCocoa", package: "RxSwift")
       ],
