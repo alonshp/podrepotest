@@ -31,7 +31,11 @@ let package = Package(
       .package(
           url: "https://github.com/ReactiveX/RxSwift.git",
           .upToNextMinor(from: "6.5.0")
-      )
+      ),
+    .package(
+        url: "https://github.com/Alamofire/Alamofire.git",
+        .upToNextMajor(from: "5.8.1")
+    )
   ],
   targets: [
     .target(
