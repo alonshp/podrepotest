@@ -40,7 +40,8 @@ let package = Package(
         .target(name: "iOSSDKTemplate", condition: .when(platforms: [.iOS])),
         .product(name: "RxSwift-Dynamic", package: "RxSwift"),
         .product(name: "RxCocoa-Dynamic", package: "RxSwift"),
-        .product(name: "RxRelay-Dynamic", package: "RxSwift")
+        .product(name: "RxRelay-Dynamic", package: "RxSwift"),
+        .product(name: "Alamofire", package: "Alamofire")
       ],
       path: "iOSSDKTemplateTarget"
     ),
