@@ -45,7 +45,7 @@ let package = Package(
         .product(name: "RxSwift-Dynamic", package: "RxSwift"),
         .product(name: "RxCocoa-Dynamic", package: "RxSwift"),
         .product(name: "RxRelay-Dynamic", package: "RxSwift"),
-        .product(name: "Alamofire", package: "Alamofire")
+        .product(name: "AlamofireDynamic", package: "Alamofire")
       ],
       path: "iOSSDKTemplateTarget"
     ),
