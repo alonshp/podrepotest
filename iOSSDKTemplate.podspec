@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'iOSSDKTemplate'
-  s.version          = '9.0.0'
+  s.version          = '10.0.0'
   s.swift_versions = ['5.0']
   s.summary          = 'OpenWeb SDK'
   s.description      = 'This SDK allows you to integrate OpenWeb into your iOS app.'
@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'iOSSDKTemplate.xcframework'
   s.dependency 'RxSwift', '~> 6.5'
   s.dependency 'RxCocoa', '~> 6.5'
-  s.dependency 'Alamofire'
+  s.dependency 'Giphy', '~> 2.2'
 
 end

@@ -23,10 +23,20 @@
       },
       {
         "kind": "Import",
-        "name": "Alamofire",
-        "printedName": "Alamofire",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "iOSSDKTemplate"
+      },
+      {
+        "kind": "Import",
+        "name": "GiphyUISDK",
+        "printedName": "GiphyUISDK",
+        "declKind": "Import",
+        "moduleName": "iOSSDKTemplate",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -36,18 +46,24 @@
           {
             "kind": "Function",
             "name": "testFunc",
-            "printedName": "testFunc()",
+            "printedName": "testFunc(vc:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
               }
             ],
             "declKind": "Func",
-            "usr": "s:14iOSSDKTemplate8SDKClassC8testFuncSSyF",
-            "mangledName": "$s14iOSSDKTemplate8SDKClassC8testFuncSSyF",
+            "usr": "s:14iOSSDKTemplate8SDKClassC8testFunc2vcSSSo16UIViewControllerC_tF",
+            "mangledName": "$s14iOSSDKTemplate8SDKClassC8testFunc2vcSSSo16UIViewControllerC_tF",
             "moduleName": "iOSSDKTemplate",
             "declAttributes": [
               "AccessControl"
@@ -81,7 +97,8 @@
         "mangledName": "$s14iOSSDKTemplate8SDKClassC",
         "moduleName": "iOSSDKTemplate",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ]
       }
     ],
@@ -90,43 +107,36 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/alonshprung\/Desktop\/iOSLibraryTemplate\/iOSLibraryTemplate\/iOSSDKTemplate\/SDKClass.swift",
+      "kind": "StringLiteral",
+      "offset": 577,
+      "length": 34,
+      "value": "\"3ramR4915VrqRb5U5FBcybtsTvSGFJu8\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Desktop\/iOSLibraryTemplate\/iOSLibraryTemplate\/iOSSDKTemplate\/SDKClass.swift",
+      "kind": "BooleanLiteral",
+      "offset": 690,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Desktop\/iOSLibraryTemplate\/iOSLibraryTemplate\/iOSSDKTemplate\/SDKClass.swift",
       "kind": "IntegerLiteral",
-      "offset": 264,
+      "offset": 721,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alonshprung\/Desktop\/iOSLibraryTemplate\/iOSLibraryTemplate\/iOSSDKTemplate\/SDKClass.swift",
       "kind": "StringLiteral",
-      "offset": 327,
+      "offset": 784,
       "length": 16,
       "value": "\"hello from sdk\""
     },
     {
       "filePath": "\/Users\/alonshprung\/Desktop\/iOSLibraryTemplate\/iOSLibraryTemplate\/iOSSDKTemplate\/SDKClass.swift",
       "kind": "StringLiteral",
-      "offset": 418,
-      "length": 20,
-      "value": "\"https:\/\/google.com\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Desktop\/iOSLibraryTemplate\/iOSLibraryTemplate\/iOSSDKTemplate\/SDKClass.swift",
-      "kind": "StringLiteral",
-      "offset": 516,
-      "length": 27,
-      "value": "\"JSON response \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Desktop\/iOSLibraryTemplate\/iOSLibraryTemplate\/iOSSDKTemplate\/SDKClass.swift",
-      "kind": "StringLiteral",
-      "offset": 542,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Desktop\/iOSLibraryTemplate\/iOSLibraryTemplate\/iOSSDKTemplate\/SDKClass.swift",
-      "kind": "StringLiteral",
-      "offset": 575,
+      "offset": 1040,
       "length": 7,
       "value": "\"hello\""
     }
