@@ -45,7 +45,7 @@ let package = Package(
         .product(name: "RxSwift-Dynamic", package: "RxSwift"),
         .product(name: "RxCocoa-Dynamic", package: "RxSwift"),
         .product(name: "RxRelay-Dynamic", package: "RxSwift"),
-        .product(name: "GiphyUISDK", package: "GiphyUISDK"),
+        .product(name: "GiphyUISDK", package: "giphy-ios-sdk"),
       ],
       path: "iOSSDKTemplateTarget"
     ),
