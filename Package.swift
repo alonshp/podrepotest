@@ -33,8 +33,8 @@ let package = Package(
           .upToNextMinor(from: "6.5.0")
       ),
     .package(
-        url: "https://github.com/Alamofire/Alamofire.git",
-        .upToNextMajor(from: "5.8.1")
+        url: "https://github.com/Giphy/giphy-ios-sdk.git",
+        .upToNextMajor(from: "2.2.8")
     )
   ],
   targets: [
@@ -45,7 +45,7 @@ let package = Package(
         .product(name: "RxSwift-Dynamic", package: "RxSwift"),
         .product(name: "RxCocoa-Dynamic", package: "RxSwift"),
         .product(name: "RxRelay-Dynamic", package: "RxSwift"),
-        .product(name: "AlamofireDynamic", package: "Alamofire")
+        .product(name: "GiphyUISDK", package: "giphy-ios-sdk"),
       ],
       path: "iOSSDKTemplateTarget"
     ),
