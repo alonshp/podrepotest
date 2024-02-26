@@ -31,7 +31,11 @@ let package = Package(
       .package(
           url: "https://github.com/ReactiveX/RxSwift.git",
           .upToNextMinor(from: "6.5.0")
-      )
+      ),
+    .package(
+        url: "https://github.com/Alamofire/Alamofire.git",
+        .upToNextMajor(from: "5.8.1")
+    )
   ],
   targets: [
     .target(
@@ -40,7 +44,8 @@ let package = Package(
         .target(name: "iOSSDKTemplate", condition: .when(platforms: [.iOS])),
         .product(name: "RxSwift-Dynamic", package: "RxSwift"),
         .product(name: "RxCocoa-Dynamic", package: "RxSwift"),
-        .product(name: "RxRelay-Dynamic", package: "RxSwift")
+        .product(name: "RxRelay-Dynamic", package: "RxSwift"),
+        .product(name: "AlamofireDynamic", package: "Alamofire")
       ],
       path: "iOSSDKTemplateTarget"
     ),
