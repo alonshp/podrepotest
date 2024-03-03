@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
 
 # the Pre-Compiled Framework:
-  # s.source = { :http => "file:///Users/alonshprung/Desktop/iOSLibraryTemplate/iOSLibraryTemplate/testPod/iOSSDKTemplate.xcframework.zip", :type => "zip"}
+  s.source          = { :git => 'https://github.com/alonshp/podrepotest.git', :tag => s.version.to_s }
   s.ios.vendored_frameworks = 'OpenWebSDK.xcframework'
   s.dependency 'RxSwift', '~> 6.5'
   s.dependency 'RxCocoa', '~> 6.5'
