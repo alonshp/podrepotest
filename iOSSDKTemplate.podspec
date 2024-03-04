@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'iOSSDKTemplate'
-  s.version          = '15.0.0'
+  s.version          = '15.0.1'
   s.swift_versions = ['5.0']
   s.summary          = 'OpenWeb SDK'
   s.description      = 'This SDK allows you to integrate OpenWeb into your iOS app.'
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
 
 # the Pre-Compiled Framework:
-  s.source          = { :git => 'https://github.com/alonshp/podrepotest.git', :tag => s.version.to_s }
+  s.source = { :http => "file:///Users/alonshprung/Desktop/iOSLibraryTemplate/iOSLibraryTemplate/testPod/iOSSDKTemplate.xcframework.zip", :type => "zip"}
   s.ios.vendored_frameworks = 'iOSSDKTemplate.xcframework'
   s.dependency 'RxSwift', '~> 6.5'
   s.dependency 'RxCocoa', '~> 6.5'
