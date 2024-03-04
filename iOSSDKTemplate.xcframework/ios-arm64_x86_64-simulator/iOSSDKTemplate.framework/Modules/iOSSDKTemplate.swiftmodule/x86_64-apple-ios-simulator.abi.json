@@ -106,14 +106,14 @@
     {
       "filePath": "\/Users\/alonshprung\/Desktop\/iOSLibraryTemplate\/iOSLibraryTemplate\/iOSSDKTemplate\/SDKClass.swift",
       "kind": "StringLiteral",
-      "offset": 803,
+      "offset": 801,
       "length": 16,
       "value": "\"hello from sdk\""
     },
     {
       "filePath": "\/Users\/alonshprung\/Desktop\/iOSLibraryTemplate\/iOSLibraryTemplate\/iOSSDKTemplate\/SDKClass.swift",
       "kind": "StringLiteral",
-      "offset": 1059,
+      "offset": 1057,
       "length": 7,
       "value": "\"hello\""
     }
