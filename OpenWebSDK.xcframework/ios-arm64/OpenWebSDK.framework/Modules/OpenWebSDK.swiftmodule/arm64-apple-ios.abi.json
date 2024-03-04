@@ -39343,6 +39343,34 @@
         "moduleName": "OpenWebSDK"
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpenWebSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OpenWebSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OpenWebSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "OpenWebSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "String",
         "printedName": "String",
@@ -39873,6 +39901,41 @@
             "printedName": "CVarArg",
             "usr": "s:s7CVarArgP",
             "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
       },
@@ -39971,6 +40034,13 @@
             ],
             "usr": "s:7RxSwift18ReactiveCompatibleP",
             "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -40081,6 +40151,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -40169,6 +40246,16 @@
         "usr": "s:10Foundation10URLRequestV",
         "mangledName": "$s10Foundation10URLRequestV",
         "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
         "isExternal": true,
         "conformances": [
           {
@@ -40788,48 +40875,39 @@
           },
           {
             "kind": "Conformance",
-            "name": "DataProtocol",
-            "printedName": "DataProtocol",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
             "children": [
               {
                 "kind": "TypeWitness",
-                "name": "Regions",
-                "printedName": "Regions",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CollectionOfOne",
-                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.UInt8]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UInt8",
-                            "printedName": "Swift.UInt8",
-                            "usr": "s:s5UInt8V"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:s15CollectionOfOneV"
+                    "name": "NSArray",
+                    "printedName": "Foundation.NSArray",
+                    "usr": "c:objc(cs)NSArray"
                   }
                 ]
               }
             ],
-            "usr": "s:10Foundation12DataProtocolP",
-            "mangledName": "$s10Foundation12DataProtocolP"
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
           },
           {
             "kind": "Conformance",
-            "name": "MutableDataProtocol",
-            "printedName": "MutableDataProtocol",
-            "usr": "s:10Foundation19MutableDataProtocolP",
-            "mangledName": "$s10Foundation19MutableDataProtocolP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
           },
           {
             "kind": "Conformance",
@@ -40875,39 +40953,48 @@
           },
           {
             "kind": "Conformance",
-            "name": "_ObjectiveCBridgeable",
-            "printedName": "_ObjectiveCBridgeable",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
             "children": [
               {
                 "kind": "TypeWitness",
-                "name": "_ObjectiveCType",
-                "printedName": "_ObjectiveCType",
+                "name": "Regions",
+                "printedName": "Regions",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "NSArray",
-                    "printedName": "Foundation.NSArray",
-                    "usr": "c:objc(cs)NSArray"
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.UInt8]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
                   }
                 ]
               }
             ],
-            "usr": "s:s21_ObjectiveCBridgeableP",
-            "mangledName": "$ss21_ObjectiveCBridgeableP"
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
           },
           {
             "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ContiguousBytes",
-            "printedName": "ContiguousBytes",
-            "usr": "s:10Foundation15ContiguousBytesP",
-            "mangledName": "$s10Foundation15ContiguousBytesP"
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
           }
         ]
       },
@@ -41115,6 +41202,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -41231,6 +41325,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -41633,6 +41734,28 @@
             ],
             "usr": "s:7RxCocoa16KVORepresentableP",
             "mangledName": "$s7RxCocoa16KVORepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
           }
         ]
       },
@@ -41730,6 +41853,42 @@
             ],
             "usr": "s:7RxCocoa16KVORepresentableP",
             "mangledName": "$s7RxCocoa16KVORepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Animatable",
+            "printedName": "Animatable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AnimatableData",
+                "printedName": "AnimatableData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatablePair",
+                    "printedName": "SwiftUI.AnimatablePair<CoreGraphics.CGFloat, CoreGraphics.CGFloat>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI14AnimatablePairV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10AnimatableP",
+            "mangledName": "$s7SwiftUI10AnimatableP"
           }
         ]
       },
@@ -41830,6 +41989,42 @@
           },
           {
             "kind": "Conformance",
+            "name": "Animatable",
+            "printedName": "Animatable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AnimatableData",
+                "printedName": "AnimatableData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatablePair",
+                    "printedName": "SwiftUI.AnimatablePair<CoreGraphics.CGFloat, CoreGraphics.CGFloat>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI14AnimatablePairV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10AnimatableP",
+            "mangledName": "$s7SwiftUI10AnimatableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -41867,20 +42062,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
             "printedName": "_ObjectiveCBridgeable",
             "children": [
@@ -41900,6 +42081,20 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -42281,6 +42476,28 @@
             ],
             "usr": "s:7RxCocoa16KVORepresentableP",
             "mangledName": "$s7RxCocoa16KVORepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
           }
         ]
       },
@@ -42725,6 +42942,35 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VectorArithmetic",
+            "printedName": "VectorArithmetic",
+            "usr": "s:7SwiftUI16VectorArithmeticP",
+            "mangledName": "$s7SwiftUI16VectorArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
           }
         ]
       },
@@ -43169,6 +43415,57 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VectorArithmetic",
+            "printedName": "VectorArithmetic",
+            "usr": "s:7SwiftUI16VectorArithmeticP",
+            "mangledName": "$s7SwiftUI16VectorArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Animatable",
+            "printedName": "Animatable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AnimatableData",
+                "printedName": "AnimatableData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10AnimatableP",
+            "mangledName": "$s7SwiftUI10AnimatableP"
           }
         ]
       },
@@ -43478,6 +43775,57 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VectorArithmetic",
+            "printedName": "VectorArithmetic",
+            "usr": "s:7SwiftUI16VectorArithmeticP",
+            "mangledName": "$s7SwiftUI16VectorArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Animatable",
+            "printedName": "Animatable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AnimatableData",
+                "printedName": "AnimatableData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10AnimatableP",
+            "mangledName": "$s7SwiftUI10AnimatableP"
           }
         ]
       },
@@ -43694,6 +44042,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -43782,6 +44137,16 @@
         "usr": "s:10Foundation3URLV",
         "mangledName": "$s10Foundation3URLV",
         "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
         "isExternal": true,
         "conformances": [
           {
@@ -43890,6 +44255,41 @@
             "printedName": "_ExpressibleByFileReferenceLiteral",
             "usr": "s:s34_ExpressibleByFileReferenceLiteralP",
             "mangledName": "$ss34_ExpressibleByFileReferenceLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
       },
@@ -43989,6 +44389,13 @@
             ],
             "usr": "s:7RxSwift18ReactiveCompatibleP",
             "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -44369,6 +44776,28 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
           }
         ]
       },
@@ -44735,6 +45164,28 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
           }
         ]
       },
@@ -45123,6 +45574,28 @@
             ],
             "usr": "s:7RxCocoa16KVORepresentableP",
             "mangledName": "$s7RxCocoa16KVORepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
           }
         ]
       },
@@ -45518,6 +45991,28 @@
             ],
             "usr": "s:7RxCocoa16KVORepresentableP",
             "mangledName": "$s7RxCocoa16KVORepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
           }
         ]
       },
@@ -45884,6 +46379,28 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
           }
         ]
       },
@@ -46250,6 +46767,28 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
           }
         ]
       },
@@ -46631,6 +47170,28 @@
             ],
             "usr": "s:7RxCocoa16KVORepresentableP",
             "mangledName": "$s7RxCocoa16KVORepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
           }
         ]
       },
@@ -47019,6 +47580,28 @@
             ],
             "usr": "s:7RxCocoa16KVORepresentableP",
             "mangledName": "$s7RxCocoa16KVORepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
           }
         ]
       },
@@ -47121,6 +47704,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -47144,6 +47734,16 @@
         "mangledName": "$s10Foundation11JSONDecoderC",
         "moduleName": "Foundation",
         "isOpen": true,
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
         "isExternal": true,
         "conformances": [
           {
@@ -47193,6 +47793,16 @@
         "mangledName": "$s10Foundation19PropertyListDecoderC",
         "moduleName": "Foundation",
         "isOpen": true,
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
         "isExternal": true,
         "conformances": [
           {
@@ -47241,6 +47851,16 @@
         "usr": "s:10Foundation13URLComponentsV",
         "mangledName": "$s10Foundation13URLComponentsV",
         "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
         "isExternal": true,
         "conformances": [
           {
@@ -47356,7 +47976,9 @@
         "objc_name": "NSBundle",
         "declAttributes": [
           "ObjC",
+          "SynthesizedProtocol",
           "NonSendable",
+          "Sendable",
           "Dynamic"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -47366,6 +47988,13 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -80218,56 +80847,56 @@
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-ios-sdk-demo-apps\/OpenWeb-Development\/OpenWeb-SDK\/Manager\/OWManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3080,
+      "offset": 3084,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-ios-sdk-demo-apps\/OpenWeb-Development\/OpenWeb-SDK\/Manager\/OWManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3371,
+      "offset": 3375,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-ios-sdk-demo-apps\/OpenWeb-Development\/OpenWeb-SDK\/Manager\/OWManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3982,
+      "offset": 3986,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-ios-sdk-demo-apps\/OpenWeb-Development\/OpenWeb-SDK\/Manager\/OWManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4090,
+      "offset": 4094,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-ios-sdk-demo-apps\/OpenWeb-Development\/OpenWeb-SDK\/Manager\/OWManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4302,
+      "offset": 4306,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-ios-sdk-demo-apps\/OpenWeb-Development\/OpenWeb-SDK\/Manager\/OWManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5144,
+      "offset": 5148,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-ios-sdk-demo-apps\/OpenWeb-Development\/OpenWeb-SDK\/Manager\/OWManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5252,
+      "offset": 5256,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-ios-sdk-demo-apps\/OpenWeb-Development\/OpenWeb-SDK\/Manager\/OWManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5464,
+      "offset": 5468,
       "length": 5,
       "value": "false"
     },
@@ -87473,6 +88102,993 @@
       "offset": 4273,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 736,
+      "length": 14,
+      "value": "\"OpenWeb-logo\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 892,
+      "length": 19,
+      "value": "\"OpenWeb-logo-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1065,
+      "length": 24,
+      "value": "\"ReportReasonCancelIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1249,
+      "length": 27,
+      "value": "\"ReportReasonSubmittedIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1428,
+      "length": 23,
+      "value": "\"ReportReasonTrashIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1576,
+      "length": 10,
+      "value": "\"Typing_0\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1711,
+      "length": 10,
+      "value": "\"Typing_1\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1848,
+      "length": 11,
+      "value": "\"Typing_10\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1986,
+      "length": 11,
+      "value": "\"Typing_11\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2124,
+      "length": 11,
+      "value": "\"Typing_12\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2262,
+      "length": 11,
+      "value": "\"Typing_13\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2400,
+      "length": 11,
+      "value": "\"Typing_14\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2538,
+      "length": 11,
+      "value": "\"Typing_15\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2676,
+      "length": 11,
+      "value": "\"Typing_16\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2814,
+      "length": 11,
+      "value": "\"Typing_17\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2952,
+      "length": 11,
+      "value": "\"Typing_18\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3090,
+      "length": 11,
+      "value": "\"Typing_19\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3226,
+      "length": 10,
+      "value": "\"Typing_2\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3363,
+      "length": 11,
+      "value": "\"Typing_20\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3501,
+      "length": 11,
+      "value": "\"Typing_21\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3639,
+      "length": 11,
+      "value": "\"Typing_22\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3777,
+      "length": 11,
+      "value": "\"Typing_23\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3915,
+      "length": 11,
+      "value": "\"Typing_24\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4053,
+      "length": 11,
+      "value": "\"Typing_25\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4191,
+      "length": 11,
+      "value": "\"Typing_26\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4329,
+      "length": 11,
+      "value": "\"Typing_27\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4467,
+      "length": 11,
+      "value": "\"Typing_28\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4605,
+      "length": 11,
+      "value": "\"Typing_29\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4741,
+      "length": 10,
+      "value": "\"Typing_3\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4878,
+      "length": 11,
+      "value": "\"Typing_30\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5016,
+      "length": 11,
+      "value": "\"Typing_31\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5154,
+      "length": 11,
+      "value": "\"Typing_32\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5292,
+      "length": 11,
+      "value": "\"Typing_33\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5430,
+      "length": 11,
+      "value": "\"Typing_34\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5568,
+      "length": 11,
+      "value": "\"Typing_35\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5706,
+      "length": 11,
+      "value": "\"Typing_36\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5844,
+      "length": 11,
+      "value": "\"Typing_37\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5982,
+      "length": 11,
+      "value": "\"Typing_38\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6120,
+      "length": 11,
+      "value": "\"Typing_39\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6256,
+      "length": 10,
+      "value": "\"Typing_4\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6393,
+      "length": 11,
+      "value": "\"Typing_40\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6531,
+      "length": 11,
+      "value": "\"Typing_41\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6669,
+      "length": 11,
+      "value": "\"Typing_42\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6807,
+      "length": 11,
+      "value": "\"Typing_43\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6945,
+      "length": 11,
+      "value": "\"Typing_44\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7083,
+      "length": 11,
+      "value": "\"Typing_45\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7221,
+      "length": 11,
+      "value": "\"Typing_46\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7359,
+      "length": 11,
+      "value": "\"Typing_47\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7495,
+      "length": 10,
+      "value": "\"Typing_5\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7630,
+      "length": 10,
+      "value": "\"Typing_6\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7765,
+      "length": 10,
+      "value": "\"Typing_7\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7900,
+      "length": 10,
+      "value": "\"Typing_8\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8035,
+      "length": 10,
+      "value": "\"Typing_9\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8179,
+      "length": 14,
+      "value": "\"addImageIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8336,
+      "length": 19,
+      "value": "\"addImageIcon-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8485,
+      "length": 12,
+      "value": "\"backButton\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8636,
+      "length": 17,
+      "value": "\"backButton-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8784,
+      "length": 13,
+      "value": "\"camera-icon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8937,
+      "length": 18,
+      "value": "\"camera-icon-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9087,
+      "length": 13,
+      "value": "\"closeButton\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9241,
+      "length": 18,
+      "value": "\"closeButton-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9397,
+      "length": 16,
+      "value": "\"closeCrossIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9560,
+      "length": 21,
+      "value": "\"closeCrossIcon-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9725,
+      "length": 19,
+      "value": "\"closeCrossIconNew\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9897,
+      "length": 24,
+      "value": "\"closeCrossIconNew-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10049,
+      "length": 11,
+      "value": "\"closeIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10197,
+      "length": 16,
+      "value": "\"closeIcon-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10384,
+      "length": 33,
+      "value": "\"closedAndEmptyConversation-icon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10597,
+      "length": 38,
+      "value": "\"closedAndEmptyConversation-icon-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10791,
+      "length": 25,
+      "value": "\"commentCreationEditIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10974,
+      "length": 26,
+      "value": "\"commentCreationReplyIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11154,
+      "length": 24,
+      "value": "\"commentingReadOnlyIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11341,
+      "length": 29,
+      "value": "\"commentingReadOnlyIcon-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11506,
+      "length": 15,
+      "value": "\"defaultAvatar\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11666,
+      "length": 20,
+      "value": "\"defaultAvatar-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11830,
+      "length": 19,
+      "value": "\"emptyCommentsIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 12002,
+      "length": 24,
+      "value": "\"emptyCommentsIcon-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 12186,
+      "length": 27,
+      "value": "\"emptyCommentsReadOnlyIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 12382,
+      "length": 32,
+      "value": "\"emptyCommentsReadOnlyIcon-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 12567,
+      "length": 24,
+      "value": "\"emptyConversation-icon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 12753,
+      "length": 29,
+      "value": "\"emptyConversation-icon-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 12920,
+      "length": 16,
+      "value": "\"errorStateIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 13083,
+      "length": 21,
+      "value": "\"errorStateIcon-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 13252,
+      "length": 21,
+      "value": "\"errorStateRetryIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 13398,
+      "length": 10,
+      "value": "\"eye-icon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 13535,
+      "length": 11,
+      "value": "\"flag-icon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 13684,
+      "length": 16,
+      "value": "\"guidelinesIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 13829,
+      "length": 12,
+      "value": "\"heart-icon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 13993,
+      "length": 23,
+      "value": "\"imageMediaPlaceholder\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 14158,
+      "length": 18,
+      "value": "\"imagePlaceholder\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 14453,
+      "length": 11,
+      "value": "\"info-icon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 14606,
+      "length": 19,
+      "value": "\"leader_badge_icon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 14767,
+      "length": 18,
+      "value": "\"loginPromptArrow\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 14925,
+      "length": 17,
+      "value": "\"loginPromptLock\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 15079,
+      "length": 16,
+      "value": "\"megaphone-icon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 15222,
+      "length": 11,
+      "value": "\"menu_icon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 15369,
+      "length": 16,
+      "value": "\"menu_icon-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 15555,
+      "length": 32,
+      "value": "\"messageDisclosureIndicatorIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 15766,
+      "length": 37,
+      "value": "\"messageDisclosureIndicatorIcon-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 15945,
+      "length": 18,
+      "value": "\"newCommentsArrow\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 16114,
+      "length": 23,
+      "value": "\"newCommentsArrow-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 16265,
+      "length": 11,
+      "value": "\"nextArrow\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 16413,
+      "length": 16,
+      "value": "\"nextArrow-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 16567,
+      "length": 16,
+      "value": "\"noInternetIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 16730,
+      "length": 21,
+      "value": "\"noInternetIcon-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 16889,
+      "length": 16,
+      "value": "\"oldPendingIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 17051,
+      "length": 20,
+      "value": "\"onlineViewingUsers\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 17215,
+      "length": 19,
+      "value": "\"openwebIconSimple\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 17387,
+      "length": 24,
+      "value": "\"openwebIconSimple-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 17543,
+      "length": 13,
+      "value": "\"optionsIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 17697,
+      "length": 18,
+      "value": "\"optionsIcon-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 17847,
+      "length": 13,
+      "value": "\"pendingIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 18001,
+      "length": 18,
+      "value": "\"pendingIcon-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 18157,
+      "length": 17,
+      "value": "\"rank_arrow_down\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 18329,
+      "length": 26,
+      "value": "\"rank_arrow_down_selected\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 18489,
+      "length": 15,
+      "value": "\"rank_arrow_up\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 18655,
+      "length": 24,
+      "value": "\"rank_arrow_up_selected\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 18808,
+      "length": 12,
+      "value": "\"rank_heart\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 18966,
+      "length": 21,
+      "value": "\"rank_heart_selected\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 19123,
+      "length": 16,
+      "value": "\"rank_like_down\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 19292,
+      "length": 25,
+      "value": "\"rank_like_down_selected\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 19449,
+      "length": 14,
+      "value": "\"rank_like_up\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 19612,
+      "length": 23,
+      "value": "\"rank_like_up_selected\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 19762,
+      "length": 11,
+      "value": "\"rank_star\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 19917,
+      "length": 20,
+      "value": "\"rank_star_selected\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 20067,
+      "length": 12,
+      "value": "\"rejectIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 20213,
+      "length": 14,
+      "value": "\"rejectedIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 20367,
+      "length": 17,
+      "value": "\"removeImageIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 20524,
+      "length": 17,
+      "value": "\"sendCommentIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 20659,
+      "length": 6,
+      "value": "\"sort\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 20792,
+      "length": 11,
+      "value": "\"sort-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 20935,
+      "length": 13,
+      "value": "\"sortingIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 21089,
+      "length": 18,
+      "value": "\"sortingIcon-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 21225,
+      "length": 6,
+      "value": "\"star\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 21358,
+      "length": 11,
+      "value": "\"time-icon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 21505,
+      "length": 16,
+      "value": "\"time-icon-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 21647,
+      "length": 10,
+      "value": "\"userIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 21792,
+      "length": 15,
+      "value": "\"userIcon-dark\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 21928,
+      "length": 8,
+      "value": "\"v-icon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 22066,
+      "length": 12,
+      "value": "\"verifyIcon\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Library\/Developer\/Xcode\/DerivedData\/OpenWeb-Development-gyrhgdjtyqlydldvwhrtewmwwwjn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OpenWeb-SDK\/IntermediateBuildFilesPath\/OpenWeb-Development.build\/ReleaseInternal-iphoneos\/OpenWebSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 22212,
+      "length": 14,
+      "value": "\"viewingUsers\""
     }
   ]
 }
