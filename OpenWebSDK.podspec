@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'OpenWebSDK'
-  s.version          = '13.0.1'
+  s.version          = '14.0.0'
   s.swift_versions = ['5.0']
   s.summary          = 'OpenWeb SDK'
   s.description      = 'This SDK allows you to integrate OpenWeb into your iOS app.'
