@@ -19,10 +19,7 @@
         "name": "RxSwift",
         "printedName": "RxSwift",
         "declKind": "Import",
-        "moduleName": "iOSSDKTemplate",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
+        "moduleName": "iOSSDKTemplate"
       },
       {
         "kind": "Import",
@@ -102,21 +99,21 @@
     {
       "filePath": "\/Users\/alonshprung\/Desktop\/iOSLibraryTemplate\/iOSLibraryTemplate\/iOSSDKTemplate\/SDKClass.swift",
       "kind": "IntegerLiteral",
-      "offset": 741,
+      "offset": 720,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alonshprung\/Desktop\/iOSLibraryTemplate\/iOSLibraryTemplate\/iOSSDKTemplate\/SDKClass.swift",
       "kind": "StringLiteral",
-      "offset": 845,
+      "offset": 824,
       "length": 16,
       "value": "\"hello from sdk\""
     },
     {
       "filePath": "\/Users\/alonshprung\/Desktop\/iOSLibraryTemplate\/iOSLibraryTemplate\/iOSSDKTemplate\/SDKClass.swift",
       "kind": "StringLiteral",
-      "offset": 1101,
+      "offset": 1080,
       "length": 7,
       "value": "\"hello\""
     }
