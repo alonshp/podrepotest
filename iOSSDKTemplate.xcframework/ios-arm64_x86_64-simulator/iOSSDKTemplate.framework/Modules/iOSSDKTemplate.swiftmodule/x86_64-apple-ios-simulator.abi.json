@@ -99,21 +99,21 @@
     {
       "filePath": "\/Users\/alonshprung\/Desktop\/iOSLibraryTemplate\/iOSLibraryTemplate\/iOSSDKTemplate\/SDKClass.swift",
       "kind": "IntegerLiteral",
-      "offset": 485,
+      "offset": 478,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alonshprung\/Desktop\/iOSLibraryTemplate\/iOSLibraryTemplate\/iOSSDKTemplate\/SDKClass.swift",
       "kind": "StringLiteral",
-      "offset": 867,
+      "offset": 858,
       "length": 16,
       "value": "\"hello from sdk\""
     },
     {
       "filePath": "\/Users\/alonshprung\/Desktop\/iOSLibraryTemplate\/iOSLibraryTemplate\/iOSSDKTemplate\/SDKClass.swift",
       "kind": "StringLiteral",
-      "offset": 1123,
+      "offset": 1114,
       "length": 7,
       "value": "\"hello\""
     }
