@@ -17,11 +17,11 @@
 import PackageDescription
 
 let package = Package(
-  name: "OpenWebSDK",
+  name: "iOSSDKTemplate",
   platforms: [.iOS(.v14)],
   products: [
     .library(
-      name: "OpenWebSDK",
+      name: "iOSSDKTemplate",
       targets: ["iOSSDKTemplateTarget"]
     )
   ],
@@ -31,17 +31,13 @@ let package = Package(
       .package(
           url: "https://github.com/ReactiveX/RxSwift.git",
           .upToNextMinor(from: "6.5.0")
-      ),
-    .package(
-        url: "https://github.com/Giphy/giphy-ios-sdk.git",
-        .upToNextMajor(from: "2.2.8")
-    )
+      )
   ],
   targets: [
     .target(
       name: "iOSSDKTemplateTarget",
       dependencies: [
-        .target(name: "OpenWebSDK", condition: .when(platforms: [.iOS])),
+        .target(name: "iOSSDKTemplate", condition: .when(platforms: [.iOS])),
         .product(name: "RxSwift-Dynamic", package: "RxSwift"),
         .product(name: "RxCocoa-Dynamic", package: "RxSwift"),
         .product(name: "RxRelay-Dynamic", package: "RxSwift"),
@@ -49,8 +45,8 @@ let package = Package(
       path: "iOSSDKTemplateTarget"
     ),
     .binaryTarget(
-      name: "OpenWebSDK",
-      path: "OpenWebSDK.xcframework"
+      name: "iOSSDKTemplate",
+      path: "iOSSDKTemplate.xcframework"
     ),
   ]
 )
