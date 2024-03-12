@@ -4,18 +4,18 @@ binary-path:     '/Users/alonshprung/Library/Developer/Xcode/DerivedData/iOSLibr
 relocations:
   - { offsetInCU: 0x34, offset: 0x538D4, size: 0x8, addend: 0x0, symName: _iOSSDKTemplateVersionString, symObjAddr: 0x0, symBinAddr: 0x5550, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x53909, size: 0x8, addend: 0x0, symName: _iOSSDKTemplateVersionNumber, symObjAddr: 0x40, symBinAddr: 0x5590, symSize: 0x0 }
-  - { offsetInCU: 0x8A, offset: 0x539A9, size: 0x8, addend: 0x0, symName: '_$s14iOSSDKTemplate8SDKClassC8testFunc2vcSSSo16UIViewControllerC_tF', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x13C }
-  - { offsetInCU: 0x121, offset: 0x53A40, size: 0x8, addend: 0x0, symName: '_$s14iOSSDKTemplate8SDKClassC8testFunc2vcSSSo16UIViewControllerC_tFySicfU_Tf4d_n', symObjAddr: 0x428, symBinAddr: 0x4428, symSize: 0x88 }
-  - { offsetInCU: 0x18F, offset: 0x53AAE, size: 0x8, addend: 0x0, symName: '_$s14iOSSDKTemplate8SDKClassCACycfC', symObjAddr: 0x260, symBinAddr: 0x4260, symSize: 0xA4 }
-  - { offsetInCU: 0x1D9, offset: 0x53AF8, size: 0x8, addend: 0x0, symName: '_$s14iOSSDKTemplate8SDKClassCACycfc', symObjAddr: 0x304, symBinAddr: 0x4304, symSize: 0x94 }
-  - { offsetInCU: 0x20D, offset: 0x53B2C, size: 0x8, addend: 0x0, symName: '_$s14iOSSDKTemplate8SDKClassCfd', symObjAddr: 0x398, symBinAddr: 0x4398, symSize: 0x24 }
-  - { offsetInCU: 0x248, offset: 0x53B67, size: 0x8, addend: 0x0, symName: '_$s14iOSSDKTemplate8SDKClassCfD', symObjAddr: 0x3BC, symBinAddr: 0x43BC, symSize: 0x2C }
-  - { offsetInCU: 0x28C, offset: 0x53BAB, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x13C, symBinAddr: 0x413C, symSize: 0x40 }
-  - { offsetInCU: 0x2A0, offset: 0x53BBF, size: 0x8, addend: 0x0, symName: '_$sSiIegy_SiIegn_TR73$s14iOSSDKTemplate8SDKClassC8testFunc2vcSSSo16UIViewControllerC_tFySicfU_Tf3npf_n', symObjAddr: 0x17C, symBinAddr: 0x417C, symSize: 0x4 }
-  - { offsetInCU: 0x2BC, offset: 0x53BDB, size: 0x8, addend: 0x0, symName: '_$sSiIegy_SiIegn_TR73$s14iOSSDKTemplate8SDKClassC8testFunc2vcSSSo16UIViewControllerC_tFySicfU_Tf3npf_n', symObjAddr: 0x17C, symBinAddr: 0x417C, symSize: 0x4 }
-  - { offsetInCU: 0x2CD, offset: 0x53BEC, size: 0x8, addend: 0x0, symName: '_$s7RxSwift10ObservableCySiGACyxGAA0C4TypeAAWl', symObjAddr: 0x180, symBinAddr: 0x4180, symSize: 0x48 }
-  - { offsetInCU: 0x2E1, offset: 0x53C00, size: 0x8, addend: 0x0, symName: '_$s7RxSwift10ObservableCySiGMa', symObjAddr: 0x1C8, symBinAddr: 0x41C8, symSize: 0x54 }
-  - { offsetInCU: 0x2F5, offset: 0x53C14, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_1, symObjAddr: 0x21C, symBinAddr: 0x421C, symSize: 0x24 }
-  - { offsetInCU: 0x309, offset: 0x53C28, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_1, symObjAddr: 0x240, symBinAddr: 0x4240, symSize: 0x20 }
-  - { offsetInCU: 0x31D, offset: 0x53C3C, size: 0x8, addend: 0x0, symName: '_$s14iOSSDKTemplate8SDKClassCMa', symObjAddr: 0x3E8, symBinAddr: 0x43E8, symSize: 0x20 }
+  - { offsetInCU: 0x8A, offset: 0x539A9, size: 0x8, addend: 0x0, symName: '_$s14iOSSDKTemplate8SDKClassC8testFunc2vcSSSo16UIViewControllerC_tF', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x138 }
+  - { offsetInCU: 0x141, offset: 0x53A60, size: 0x8, addend: 0x0, symName: '_$s14iOSSDKTemplate8SDKClassC8testFunc2vcSSSo16UIViewControllerC_tFySicfU_Tf4d_n', symObjAddr: 0x424, symBinAddr: 0x4424, symSize: 0x88 }
+  - { offsetInCU: 0x1AF, offset: 0x53ACE, size: 0x8, addend: 0x0, symName: '_$s14iOSSDKTemplate8SDKClassCACycfC', symObjAddr: 0x25C, symBinAddr: 0x425C, symSize: 0xA4 }
+  - { offsetInCU: 0x1F9, offset: 0x53B18, size: 0x8, addend: 0x0, symName: '_$s14iOSSDKTemplate8SDKClassCACycfc', symObjAddr: 0x300, symBinAddr: 0x4300, symSize: 0x94 }
+  - { offsetInCU: 0x22D, offset: 0x53B4C, size: 0x8, addend: 0x0, symName: '_$s14iOSSDKTemplate8SDKClassCfd', symObjAddr: 0x394, symBinAddr: 0x4394, symSize: 0x24 }
+  - { offsetInCU: 0x268, offset: 0x53B87, size: 0x8, addend: 0x0, symName: '_$s14iOSSDKTemplate8SDKClassCfD', symObjAddr: 0x3B8, symBinAddr: 0x43B8, symSize: 0x2C }
+  - { offsetInCU: 0x2AC, offset: 0x53BCB, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x138, symBinAddr: 0x4138, symSize: 0x40 }
+  - { offsetInCU: 0x2C0, offset: 0x53BDF, size: 0x8, addend: 0x0, symName: '_$sSiIegy_SiIegn_TR73$s14iOSSDKTemplate8SDKClassC8testFunc2vcSSSo16UIViewControllerC_tFySicfU_Tf3npf_n', symObjAddr: 0x178, symBinAddr: 0x4178, symSize: 0x4 }
+  - { offsetInCU: 0x2DC, offset: 0x53BFB, size: 0x8, addend: 0x0, symName: '_$sSiIegy_SiIegn_TR73$s14iOSSDKTemplate8SDKClassC8testFunc2vcSSSo16UIViewControllerC_tFySicfU_Tf3npf_n', symObjAddr: 0x178, symBinAddr: 0x4178, symSize: 0x4 }
+  - { offsetInCU: 0x2ED, offset: 0x53C0C, size: 0x8, addend: 0x0, symName: '_$s7RxSwift10ObservableCySiGACyxGAA0C4TypeAAWl', symObjAddr: 0x17C, symBinAddr: 0x417C, symSize: 0x48 }
+  - { offsetInCU: 0x301, offset: 0x53C20, size: 0x8, addend: 0x0, symName: '_$s7RxSwift10ObservableCySiGMa', symObjAddr: 0x1C4, symBinAddr: 0x41C4, symSize: 0x54 }
+  - { offsetInCU: 0x315, offset: 0x53C34, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_1, symObjAddr: 0x218, symBinAddr: 0x4218, symSize: 0x24 }
+  - { offsetInCU: 0x329, offset: 0x53C48, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_1, symObjAddr: 0x23C, symBinAddr: 0x423C, symSize: 0x20 }
+  - { offsetInCU: 0x33D, offset: 0x53C5C, size: 0x8, addend: 0x0, symName: '_$s14iOSSDKTemplate8SDKClassCMa', symObjAddr: 0x3E4, symBinAddr: 0x43E4, symSize: 0x20 }
 ...
