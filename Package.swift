@@ -28,19 +28,19 @@ let package = Package(
   dependencies: [
       // Here we define our package's external dependencies
       // and from where they can be fetched:
-      .package(
-          url: "https://github.com/ReactiveX/RxSwift.git",
-          .upToNextMinor(from: "6.5.0")
-      )
+      // .package(
+      //     url: "https://github.com/ReactiveX/RxSwift.git",
+      //     .upToNextMinor(from: "6.5.0")
+      // )
   ],
   targets: [
     .target(
       name: "iOSSDKTemplateTarget",
       dependencies: [
         .target(name: "iOSSDKTemplate", condition: .when(platforms: [.iOS])),
-        .product(name: "RxSwift-Dynamic", package: "RxSwift"),
-        .product(name: "RxCocoa-Dynamic", package: "RxSwift"),
-        .product(name: "RxRelay-Dynamic", package: "RxSwift"),
+        // .product(name: "RxSwift-Dynamic", package: "RxSwift"),
+        // .product(name: "RxCocoa-Dynamic", package: "RxSwift"),
+        // .product(name: "RxRelay-Dynamic", package: "RxSwift"),
       ],
       path: "iOSSDKTemplateTarget"
     ),
