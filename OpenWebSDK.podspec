@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'OpenWebSDK'
-  s.version          = '36.0.0'
+  s.version          = '37.0.0'
   s.swift_versions = ['5.0']
   s.summary          = 'OpenWeb SDK'
   s.description      = 'This SDK allows you to integrate OpenWeb into your iOS app.'
@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
 
 # the Pre-Compiled Framework:
   s.source          = { :git => 'https://github.com/alonshp/podrepotest.git', :tag => s.version.to_s }
+  s.ios.resources   = 'Vendor-Frameworks'
   s.ios.vendored_frameworks = 'OpenWebSDK.xcframework'
   # s.dependency 'RxSwift', '= 6.6.0'
   # s.dependency 'RxCocoa', '= 6.6.0'
