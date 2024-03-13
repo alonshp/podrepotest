@@ -42,7 +42,10 @@ let package = Package(
         // .product(name: "RxCocoa-Dynamic", package: "RxSwift"),
         // .product(name: "RxRelay-Dynamic", package: "RxSwift"),
       ],
-      path: "iOSSDKTemplateTarget"
+      path: "iOSSDKTemplateTarget",
+      resources: [
+        .copy("Vendor-Frameworks"),
+      ])
     ),
     .binaryTarget(
       name: "OpenWebSDK",
