@@ -44,8 +44,8 @@ let package = Package(
       ],
       path: "iOSSDKTemplateTarget",
       resources: [
-        .copy("Vendor-Frameworks/RxSwift.xcframework"),
-      ])
+        .copy("Vendor-Frameworks"),
+      ]
     ),
     .binaryTarget(
       name: "OpenWebSDK",
