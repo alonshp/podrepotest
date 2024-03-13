@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
 
 # the Pre-Compiled Framework:
   s.source          = { :git => 'https://github.com/alonshp/podrepotest.git', :tag => s.version.to_s }
+  s.ios.source_files = 'Test.swift'
   s.ios.vendored_frameworks = 'OpenWebSDK.xcframework'
   # s.dependency 'RxSwift', '= 6.6.0'
   # s.dependency 'RxCocoa', '= 6.6.0'
