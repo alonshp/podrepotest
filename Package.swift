@@ -17,11 +17,11 @@
 import PackageDescription
 
 let package = Package(
-  name: "iOSSDKTemplate",
+  name: "OpenWebSDK",
   platforms: [.iOS(.v14)],
   products: [
     .library(
-      name: "iOSSDKTemplate",
+      name: "OpenWebSDK",
       targets: ["iOSSDKTemplateTarget"]
     )
   ],
@@ -37,7 +37,7 @@ let package = Package(
     .target(
       name: "iOSSDKTemplateTarget",
       dependencies: [
-        .target(name: "iOSSDKTemplate", condition: .when(platforms: [.iOS])),
+        .target(name: "OpenWebSDK", condition: .when(platforms: [.iOS])),
         // .product(name: "RxSwift-Dynamic", package: "RxSwift"),
         // .product(name: "RxCocoa-Dynamic", package: "RxSwift"),
         // .product(name: "RxRelay-Dynamic", package: "RxSwift"),
@@ -45,8 +45,8 @@ let package = Package(
       path: "iOSSDKTemplateTarget"
     ),
     .binaryTarget(
-      name: "iOSSDKTemplate",
-      path: "iOSSDKTemplate.xcframework"
+      name: "OpenWebSDK",
+      path: "OpenWebSDK.xcframework"
     ),
   ]
 )
