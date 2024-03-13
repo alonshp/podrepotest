@@ -44,7 +44,7 @@ let package = Package(
       ],
       path: "iOSSDKTemplateTarget",
       resources: [
-        .copy("Vendor-Frameworks"),
+        .copy("Vendor-Frameworks/RxSwift.xcframework"),
       ]
     ),
     .binaryTarget(
